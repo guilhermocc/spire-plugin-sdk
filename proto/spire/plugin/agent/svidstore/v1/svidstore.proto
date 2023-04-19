@@ -47,5 +47,9 @@ message X509SVID {
 
     // Expiration timestamp (seconds since Unix epoch).
     int64 expires_at = 5;
+
+    // An operator-specified string used to provide guidance on how this
+    // identity should be used.
+    string hint = 6;
 }
 
